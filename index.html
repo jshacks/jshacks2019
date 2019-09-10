@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSHacks 2018 - The AI Edition</title>
+
+  <meta name="author" content="JSHacks.io">
+  <meta name="Title" content="JSHacks.io">
+  <meta name="description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+  />
+  <meta name="keywords" content="community, javascript, hackathon, framework, angularjs bucharest, jsgirls, bucharestjs, reactjs, vuejs"
+  />
+  <meta property="og:title" content="jshacks.io">
+  <meta property="og:url" content="https://jshacks.io/" />
+  <meta property="og:description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+  />
+  <meta name="Language" content="EN">
+  <meta name="country" content="Romania">
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="jshacks.io">
+  <meta itemprop="description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+  />
+  <meta itemprop="image" content="https://jshacks.io/img/cover.png">
+
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="JSHacks.io">
+  <meta name="twitter:site" content="@jshacksio" />
+  <meta name="twitter:title" content="jshacks.io">
+  <meta name="twitter:description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+  />
+  <meta name="twitter:creator" content="@jshacksio">
+  <meta name="twitter:image:src" content="https://jshacks.io/img/cover.png">
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="JSHacks.io" />
+  <meta property="og:type" content="post" />
+  <meta property="og:url" content="https://jshacks.io/" />
+  <meta property="og:image" content="https://jshacks.io/img/cover.png">
+  <meta property="og:description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+  />
+  <meta property="og:site_name" content="JSHacks.io" />
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+
+  <!-- Booooooootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+  <![endif]-->
+</head>
+
+<body>
+  <main class="main">
+    <div class="stars"></div>
+    <div class="blobs toright hidden-xs hidden-sm">
+      <div class="blob"></div>
+      <div class="blob"></div>
+      <div class="blob"></div>
+      <div class="blob"></div>
+      <div class="blob"></div>
+      <div class="blob"></div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 index-5">
+            <div class="row">
+              <nav class="navbar navbar-default mt-30">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#superdupernav">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand f5 logo" href="https://jshacks.io/" target="_blank">
+                      <img src="img/logo-blue.png">
+                    </a>
+
+                    <div class="white-block hidden-xs hidden-sm"></div>
+                  </div>
+                  <div class="collapse navbar-collapse" id="superdupernav">
+                    <ul class="Menu-list nav navbar-nav pull-right f5">
+                      <li class="active">
+                        <a href="#">home</a>
+                      </li>
+                      <li>
+                        <a href="about.html">about</a>
+                      </li>
+                      <li>
+                        <a href="#challenges">challenges</a>
+                      </li>
+                      <li>
+                        <a href="#agenda">agenda</a>
+                      </li>
+                      <li>
+                        <a href="#mentors">mentors</a>
+                      </li>
+                      <li>
+                        <a href="#sponsors">sponsors</a>
+                      </li>
+                      <li>
+                        <a href="team.html">team</a>
+                      </li>
+                      <li>
+                        <a href="#contact">contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cta fadein relative">
+          <div class="row index-5">
+            <div class="col-md-12 mt-5em">
+              <h2 class="rellax f-subheadline text-orange font-nasa m-a-0" data-rellax-speed="-4">2018 Bucharest</h2>
+              <h2 class="rellax f-subheadline font-nasa m-a-0" data-rellax-speed="-4">AI Edition</h2>
+              <h2 class="rellax mb-30 font-nasa f3" data-rellax-speed="-4">26 - 28
+                <sup>th</sup> October | TechHub Bucharest</h2>
+            </div>
+            <div class="rellax col-md-4" data-rellax-speed="-5">
+              <div class="ey">
+                <span class="font-nasa">Powered by</span>
+                <img src="img/sponsors/ey.png" />
+              </div>
+              <a href="http://bit.ly/JSHacks2018" class="btn btn-xl btn-pink f4 mt-5" target="_blank">REGISTER FOR JSHACKS</a>
+            </div>
+            <div class="col-xs-offset-2 col-md-offset-3 col-md-3 hidden-xs hidden-sm">
+              <div class="rellax" data-rellax-speed="5" style="transform: rotate(15deg); margin-top:-50px;">
+                <img src="img/robots/robot1.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="h-30vh">
+      <div class="col-md-4 col-md-offset-5 text-center">
+        <div class="separator hidden-xs hidden-sm"></div>
+      </div>
+    </section>
+
+    <section class="h-90vh hidden-md hidden-lg"></section>
+
+
+    <!-- challenges -->
+    <section>
+      <div class="container" id="challenges">
+        <div class="row mb-30">
+          <div class="col-md-8 col-md-offset-4 text-center">
+            <h3 class="font-nasa f1 f-bold">AI Challenges</h3>
+            <h3 class="font-nasa mb-30 f2 f-bold text-orange mt-0">for the brave ones</h3>
+            <p>From the financial sector to the automobile industry, AI has a wide range of applications. In today’s data-driven
+              world, AI has the potential to transform the economic landscape of the world. The emergence of big data, graphics
+              processing unit, and deep learning has led to many advances in AI.</p>
+            <ul class="f4">
+              <li>Demand forecasting | Dynamic pricing | Fraud detection | Cybersecurity</li>
+              <li>Customer churn | Anomaly detection | Natural Language Processing</li>
+              <li>Image processing | Recommendation | Conversion modeling</li>
+              <li>Click-stream analysis | Market segmentation & targeting</li>
+              <li>... and many, many other applications ...</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- agenda -->
+    <section class="relative">
+      <div class="stars full" style="height: 900px;"></div>
+      <div class="absolute above mobile-hide" style="pointer-events: none;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="rellax" data-rellax-speed="4" style="transform: rotate(12deg); margin-top: 30px;">
+                <img src="img/robots/brain.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mt-150" id="agenda">
+          <div class="col-md-12 text-center">
+            <h3 class="font-nasa f1 f-bold">JSHacks Agenda</h3>
+            <h3 class="font-nasa f2 f-bold text-orange mt-0">3 days of AI</h3>
+            <div class="row pt-60">
+              <div class="col-md-4 col-sm-4">
+                <div class="wrap">
+                  <div class="blob2">
+                    <span class="blob2-content">
+                      <h3 class="text-orange font-nasa">Friday</h3>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content">
+                      <p>18:30 - Registration</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-right">
+                      <p>19:00 - Opening Talks & Goodies</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-left">
+                      <p>19:45 - Ideas Presentation & Team Formation</p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="wrap">
+                  <div class="blob2">
+                    <span class="blob2-content">
+                      <h3 class="text-pink font-nasa">Saturday</h3>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content">
+                      <p>09:00 - Breakfast & Good Time</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-right">
+                      <p>10:00 - 13:00 - Tensorflow Workshop by Oleksandr Zakharchuk (Google Developer Expert in ML)</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-right">
+                      <p>13:00 - 14:00 - Lunch, Drinks & Surprises</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-right">
+                      <p>14:00 - 17:00 - Mentorship</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-left">
+                      <p>17:00 - Hacking Continues 'till Night</p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4">
+                <div class="wrap">
+                  <div class="blob2">
+                    <span class="blob2-content">
+                      <h3 class="text-blue font-nasa">Sunday</h3>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content">
+                      <p>09:00 - Breakfast & Good Time</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-right">
+                      <p>10:00 - Hacking Continues</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-right">
+                      <p>13:00 - Lunch & Drinks</p>
+                      <span class="blob2-connector"></span>
+                    </span>
+                  </div>
+                  <div class="blob2">
+                    <span class="blob2-content offset-left">
+                      <p>16:00 - Demos & Ending Ceremony</p>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- workshop -->
+    <section class="mt-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-8">
+            <h3 class="font-nasa f1 f-bold">Tensorflow Workshop</h3>
+            <h3 class="text-orange f3 mb-30 f-bold font-nasa mt-0">by Oleksandr Zakharchuk</h4>
+              <span class="label-darkblue">Saturday, 27
+                <sup>th</sup> October</span>
+              <p class="f4 mt-30">
+                Google Developer Expert in Machine Learning. Advising startups on applying deep learning for RecSys and NLP. Worked on models
+                for personalized content recommendations, systems for exploring new content, as well as compact language
+                models. Conducted 4 iterations of the internal course on machine learning with Tensorflow for 150+ people
+                in total.
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 pull-right " style="margin-top: -70px;">
+        <div class="stars full" style="height: 1200px;"></div>
+        <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)" fill="#08112b">
+          <defs>
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+              <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+          </defs>
+          <g>
+            <circle r="100" cy="145" cx="150">
+              <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 145 150" to="360 145 150" dur="10s"
+                repeatCount="indefinite" />
+            </circle>
+            <circle r="100" cy="155" cx="150">
+              <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 155 150" to="0 155 150" dur="20s"
+                repeatCount="indefinite" />
+            </circle>
+            <circle r="100" cy="150" cx="145">
+              <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 150 145" to="360 150 145" dur="30s"
+                repeatCount="indefinite" />
+            </circle>
+            <circle r="100" cy="150" cx="155">
+              <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 150 155" to="0 150 155" dur="20.5s"
+                repeatCount="indefinite" />
+            </circle>
+          </g>
+        </svg>
+      </div>
+
+    </section>
+
+    <!-- goodies -->
+    <section class="mt-150 hidden-xs hidden-sm">
+      <div class="blobs3">
+        <div class="blob3"></div>
+        <div class="blob3"></div>
+        <div class="blob3"></div>
+        <div class="blob3"></div>
+        <div class="blob3"></div>
+        <div class="blob3"></div>
+      </div>
+      <div class="container relative" style="padding-top: 20px;padding-left: 50px;">
+        <div class="row">
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-pink">
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Coding</h4>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-blue">
+              <span class="flaticon-beer"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Drinks</h4>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-green">
+              <span class="flaticon-pizza"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Food</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-purple">
+              <span class="flaticon-network"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Networking</h4>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-orange">
+              <span class="flaticon-sticker"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">T-shirts</h4>
+          </div>
+
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-turquoise">
+              <span class="flaticon-t-shirt"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Prizez</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-orange">
+              <span class="flaticon-giftbox"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Mentors</h4>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-green">
+              <i class="fa fa-smile-o" aria-hidden="true"></i>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Connections</h4>
+          </div>
+          <div class="col-md-2 col-sm-6 col-xs-6">
+            <h3 class="f-5 text-pink">
+              <span class="flaticon-presentation"></span>
+            </h3>
+            <h4 class="font-nasa f4 text-white">Stickers</h4>
+          </div>
+        </div>
+        <div class="blob-container-4">
+          <div>
+            <svg id="organic-blob" width="150" height="150" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)" fill="#08112b">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                  <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                </filter>
+              </defs>
+              <g>
+                <circle r="50" cy="72" cx="75">
+                  <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 72 75" to="360 72 75" dur="10s" repeatCount="indefinite"
+                  />
+                </circle>
+                <circle r="50" cy="72" cx="75">
+                  <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 82 75" to="0 72 75" dur="20s" repeatCount="indefinite"
+                  />
+                </circle>
+                <circle r="50" cy="75" cx="72">
+                  <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 75 72" to="360 75 72" dur="30s" repeatCount="indefinite"
+                  />
+                </circle>
+                <circle r="50" cy="75" cx="73">
+                  <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 75 72" to="0 75 73" dur="20.5s" repeatCount="indefinite"
+                  />
+                </circle>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <!-- jury -->
+    <section class="mt-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-right">
+            <h3 class="font-nasa f-bold f1">Jury</h3>
+            <h3 class="font-nasa f-bold f2 text-orange mt-0">the experts</h3>
+          </div>
+          <div class="col-md-12 mt-5">
+            <div class="row">
+              <div class="col-md-2 col-md-offset-1 col-sm-6 text-center mt-30">
+                <div class="user-pic center-block">
+                  <img src="img/mentors/Dragos-Manescu.jpg" />
+                </div>
+                <h4 class="font-nasa f3">Dragos Manescu</h4>
+                <h5 class="f5">
+                  <strong>Product Manager AI @Adobe</strong>
+                </h5>
+              </div>
+
+              <div class="col-md-2 col-sm-6 text-center mt-30">
+                <div class="user-pic center-block">
+                  <img src="img/mentors/Oleksandr-Zakharchuk.jpg" />
+                </div>
+                <h4 class="font-nasa f3">Oleksandr Zakharchuk</h4>
+                <h5 class="f5">
+                  <strong>ML Google Developer Expert</strong>
+                </h5>
+              </div>
+
+              <div class="col-md-2 col-sm-6 text-center mt-30">
+                <div class="user-pic center-block">
+                  <img src="img/mentors/Tatiana-Petrache.jpg" />
+                </div>
+                <h4 class="font-nasa f3">Tatiana Petrache</h4>
+                <h5 class="f5">
+                  <strong>Machine Intelligence Engineer @Avira</strong>
+                </h5>
+              </div>
+
+              <div class="col-md-2 col-sm-6 text-center mt-30">
+                <div class="user-pic center-block">
+                  <img src="img/mentors/razvan-popescu.jpg" />
+                </div>
+                <h4 class="font-nasa f3">Razvan Popescu</h4>
+                <h5 class="f5">
+                  <strong>Head of Intelligent Automation @EY Romania</strong>
+                </h5>
+              </div>
+
+              <div class="col-md-2 col-sm-6 text-center mt-30">
+                <div class="user-pic center-block">
+                  <img src="img/mentors/andrei-mititelu.jpg" />
+                </div>
+                <h4 class="font-nasa f3">Andrei Mititelu</h4>
+                <h5 class="f5">
+                  <strong>Development Lead @Endava</strong>
+                </h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="absolute above mobile-hide" style="pointer-events: none;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 pull-right">
+            <div class="rellax" data-rellax-speed="4" style="transform: rotate(12deg); margin-top: 30px;">
+              <img src="img/robots/robot2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative">
+      <div class="stars full" style="height: 2400px;"></div>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="1800px" height="321.829px" viewBox="0 0 1800 321.829" enable-background="new 0 0 1800 321.829" xml:space="preserve">
+        <path fill="#08112B" d="M703.731,185.495C293.502,136.274,87.615,187.899,0,224.085V0.001l1799.999,0v294.773
+    C1500.028,327.082,1179.88,242.432,703.731,185.495z M1799.999,0.001H0v321.828h1799.999V0.001z" />
+      </svg>
+    </div>
+
+
+    <!-- mentors -->
+    <section class="bg-inversed relative" style="margin-top: -10px;">
+      <div class="container">
+        <div class="row" id="mentors">
+          <div class="col-md-12">
+            <h3 class="font-nasa f1 f-bold">Mentors</h3>
+            <h3 class="font-nasa mb-30 f2 f-bold mt-0 text-orange">the wizards</h3>
+          </div>
+        </div>
+        <!-- mentor 1 -->
+        <div class="row mt-5">
+          <div class="col-md-3 col-md-offset-1 user-pic">
+            <img src="img/mentors/Ionut-Mironica.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4 class="font-nasa f3 text-green">Ionut Mironica</h4>
+            <h5 class="f5 fw-300">
+              Ionut is a highly experienced IT professional with over 10 years of experience in various R&D domains. He has successfully
+              defended a PhD thesis in the area of multimedia information retrieval and machine learning in 2013. The thesis
+              was developed in cooperation with University of Trento Italy and he was rewarded with the "excellent" jury
+              appreciation. After the PhD, he continued his research with a postdoc grant, contributing to more than 40 scientific
+              publications.
+              <br>
+              <br>During the last years, he worked as a machine learning consultant on various projects and domains, starting
+              from financial and payments industry to digital marketing and multimedia solutions. His main concern was to
+              bring the state-of-the-art AI advances to commercial products.
+            </h5>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-offset-1 col-md-1">
+          </div>
+          <div class="col-md-offset-2 col-md-8">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3 user-pic">
+                    <img src="img/mentors/Oleksandr-Zakharchuk.jpg" />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="font-nasa f3 text-green">Oleksandr Zakharchuk</h4>
+                    <h5 class="f5 fw-300 text-purple">
+                      Google Developer Expert in Machine Learning.
+                    </h5>
+                    <h5 class="f5 fw-300">
+                      Advising startups on applying deep learning for RecSys and NLP. Worked on models for personalized content recommendations,
+                      systems for exploring new content, as well as compact language models. Conducted 4 iterations of the
+                      internal course on machine learning with Tensorflow for 150+ people in total.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-3 col-md-offset-1 user-pic">
+            <img src="img/mentors/Christian-Merkwirth.jpeg" />
+          </div>
+          <div class="col-md-7">
+            <h4 class="font-nasa f3 text-green">Christian Merkwirth</h4>
+            <h5 class="f5 fw-300 text-purple">
+              ML Engineer at Luxoft/NAUTO & Google Developer Expert in Machine Learning.
+            </h5>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-offset-1 col-md-1">
+          </div>
+          <div class="col-md-offset-2 col-md-8">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3 user-pic">
+                    <img src="img/mentors/Krzysztof-Suwada.jpeg" />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="font-nasa f3 text-green">Krzysztof Suwada</h4>
+                    <h5 class="f5 fw-300 text-purple">
+                      Data Scientist at Brainly.co
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-3 col-md-offset-1 user-pic">
+            <img src="img/mentors/razvan-popescu.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4 class="font-nasa f3 text-green">Razvan Popescu</h4>
+            <h5 class="f5 fw-300 text-purple">
+              Head of Intelligent Automation, EY Romania
+            </h5>
+            <h5 class="f5 fw-300">
+              With over 10 years of experience in advising companies on their technological challenges and organizational performance,
+              Razvan is one of the early promoters of automation technologies in the Romanian market.
+              <br>
+              <br> For the past 3 years, he has been developing and leading one of the most experienced automation teams in UiPath
+              technology, delivering on robotic process automation roll-outs for global clients, while exploring the benefits
+              of new technologies to enhance the value of automation. Razvan has a passion for innovation and is committed
+              to designing solutions that improve the way technology is leveraged in organizations.
+            </h5>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-offset-1 col-md-1">
+          </div>
+          <div class="col-md-offset-2 col-md-8">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-3 user-pic">
+                    <img src="img/mentors/Tatiana-Petrache.jpg" />
+                  </div>
+                  <div class="col-md-9">
+                    <h4 class="font-nasa f3 text-green">Tatiana Petrache</h4>
+                    <h5 class="f5 fw-300 text-purple">
+                      Machine Intelligence Engineer, Avira
+                    </h5>
+                    <h5 class="f5 fw-300">
+                      Tatiana Petrache is a Machine Intelligence Engineer at Avira developing solutions to augment the integrity and resilience
+                      of IoT ecosystems. She holds a Big Data Analytics certification at Harvard Extension, and acts as a
+                      SME in Data Science for several regional meet-up groups.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-3 col-md-offset-1 user-pic">
+            <img src="img/mentors/sergii-khomenko.jpg" />
+          </div>
+          <div class="col-md-7">
+            <h4 class="font-nasa f3 text-green">Sergii Khomenko</h4>
+            <h5 class="f5 fw-300 text-purple">
+              Head of Product Service and Data Platform, Stylight Google Developer Expert in Machine Learning
+            </h5>
+            <h5 class="f5 fw-300">
+              Sergii is Google Developer Expert in Machine Learning. In his free time, he organizes Hacking Machine Learning meetup in
+              Munich and enjoys sharing his knowledge as a conference speaker or open source and machine learning ambassador.
+              <br>
+              <br> In his work time, he works on democratizing fashion with Stylight, one of the biggest fashion communities
+              in the world.
+            </h5>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </section>
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="1800px" height="321.829px" viewBox="0 0 1800 321.829" enable-background="new 0 0 1800 321.829" xml:space="preserve">
+      <path fill="#08112B" d="M1799.999,294.774V0L0,0.001v224.084c87.615-36.187,293.502-87.812,703.731-38.591
+	C1179.88,242.432,1500.028,327.082,1799.999,294.774z" />
+    </svg>
+
+    <!-- sponsors -->
+    <section style="margin-top: -40px;">
+      <div class="container">
+        <div class="row" id="sponsors">
+          <div class="col-md-12">
+            <h3 class="font-nasa f1 f-bold">Sponsors</h3>
+            <h3 class="font-nasa text-orange f2 f-bold mt-0">so grateful</h3>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 col-sm-6 col-xs-12 mt-30 index-5 text-center">
+            <a href="https://www.ey.com/ro/en/home" target="_blank">
+              <img src="img/sponsors/ey.png" class="sponsorimg" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 mt-30 index-5 text-center">
+            <a href="https://www.adobe.com/" target="_blank">
+              <img src="img/sponsors/adobe.png" class="sponsorimg" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 mt-30 index-5 text-center">
+            <a href="https://www.avira.com/" target="_blank">
+              <img src="img/sponsors/avira.png" class="sponsorimg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-4 col-sm-6 col-xs-12 mt-10 index-5 text-center">
+            <a href="https://www.endava.com/" target="_blank">
+              <img src="img/sponsors/endava.png" class="sponsorimg" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 mt-30 index-5 text-center">
+            <a href="https://gopro.com/" target="_blank">
+              <img src="img/sponsors/gopro.png" class="sponsorimg" />
+            </a>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12 mt-30 index-5 text-center">
+            <a href="https://www.morphl.io/" target="_blank">
+              <img src="img/sponsors/morphl.png" class="sponsorimg" />
+            </a>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+
+    <!-- community partners -->
+    <section class="mt-150 mb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-right">
+            <h3 class="font-nasa f1 f-bold">Community Partners</h3>
+            <h3 class="font-nasa f2 f-bold text-orange mt-0">our friends</h3>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://www.facebook.com/groups/angularjs.bucharest/" target="_blank">
+              <img src="img/communities/angularjs.png" class="commimg" />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://www.facebook.com/groups/BucharestJS/" target="_blank">
+              <img src="img/communities/bucharestjs.png" class="commimg" />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://jsgirls.ro/" target="_blank">
+              <img src="img/communities/jsgirls.png" class="commimg" />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://bucharest.city.ai/" target="_blank">
+              <img src="img/communities/bucharestai.png" class="commimg" />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://codette.ro/" target="_blank">
+              <img src="img/communities/codette.png" class="commimg" />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://www.facebook.com/frontendbucharest/" target="_blank">
+              <img src="img/communities/frontendbucharest.png" class="commimg" />
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://bucharest.techhub.com/" target="_blank">
+              <img src="img/communities/techhub.png" class="commimg" />
+            </a>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 mt-30 index-5">
+            <a href="https://incremental.community/" target="_blank">
+              <img src="img/communities/incremental-community.png" class="commimg" />
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center index-5">
+            <h3 class="mb-30 f1 font-nasa">READY? LET'S JS HACK! </h3>
+            <a href="http://bit.ly/JSHacks2018" class="btn btn-xl f4 btn-pink" target="_blank">REGISTER FOR JSHACKS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="relative o-hidden">
+      <div class="stars full" style="height: 500px;"></div>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        width="1800px" height="321.829px" viewBox="0 0 1800 321.829" enable-background="new 0 0 1800 321.829" xml:space="preserve">
+        <path fill="#08112B" d="M703.731,185.495C293.502,136.274,87.615,187.899,0,224.085V0.001l1799.999,0v294.773
+    C1500.028,327.082,1179.88,242.432,703.731,185.495z M1799.999,0.001H0v321.828h1799.999V0.001z" />
+      </svg>
+    </div>
+
+
+    <section id="contact" class="bg-inversed" style="margin-top:-10px;">
+      <div class="container pb-2">
+        <div class="row">
+          <div class="col-md-6 col-xs-12 contact-btns">
+            <a href="http://jshacks.io" class="f5 hack-link" target="_blank">jshacks.io</a> |
+            <a href="http://2016.jshacks.io" class="f5 hack-link" target="_blank">2016 edition</a> |
+            <a href="http://2017.jshacks.io" class="f5 hack-link" target="_blank">2017 edition</a> |
+            <a href="mailto:contact@jshacks.io" class="f5 hack-link" target="_blank">contact@jshacks.io</a>
+            </a>
+          </div>
+          <div class="col-md-6 col-xs-12 social-btns f4">
+            <a href="https://www.facebook.com/jshacks/" class="hack-slink" target="_blank">
+              <i class="fa fa-facebook mr-10" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/jshacksio" class="hack-slink" target="_blank">
+              <i class="fa fa-twitter mr-10" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/jshacks/" class="hack-slink" target="_blank">
+              <i class="fa fa-github mr-10" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ee7jihHD03o" class="hack-slink" target="_blank">
+              <i class="fa fa-youtube mr-10" aria-hidden="true"></i>
+            </a>
+            <a href="https://jshacks.slack.com/" class="hack-slink" target="_blank">
+              <i class="fa fa-slack" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+
+  <!-- javascript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/rellax.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+
+  <script>
+    // Need DEBUG for old version of Rellax.js
+    var DEBUG = false;
+    var rellax = new Rellax('.rellax');
+  </script>
+
+
+
+
+</body>
+
+</html>
