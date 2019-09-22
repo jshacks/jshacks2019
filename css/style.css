@@ -1304,7 +1304,8 @@ span.white {
   left: 3rem;
 }
 .prev-edition:hover img,
-.prev-edition:hover h2 {
+.prev-edition:hover h2,
+.prev-edition:hover h5 {
   transform: scale(1.1);
 }
 
