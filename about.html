@@ -1,393 +1,733 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JSHacks 2019 - EduTech Edition</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JSHacks 2018 - The AI Edition - About</title>
-
-    <meta name="author" content="JSHacks.io">
-    <meta name="Title" content="JSHacks.io">
-    <meta name="description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+    <meta name="author" content="JSHacks.io" />
+    <meta name="Title" content="JSHacks.io" />
+    <meta
+      name="description"
+      content="JSHacks is the annual JavaScript hackathon organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation. Proudly crafted by the JSLeague team 🤟"
     />
-    <meta name="keywords" content="community, javascript, hackathon, framework, angularjs bucharest, jsgirls, bucharestjs, reactjs, vuejs"
+    <meta
+      name="keywords"
+      content="community, javascript, hackathon, framework, angularjs bucharest, jsgirls, bucharestjs, reactjs, vuejs"
     />
-    <meta property="og:title" content="jshacks.io">
+    <meta property="og:title" content="jshacks.io" />
     <meta property="og:url" content="https://jshacks.io/" />
-    <meta property="og:description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+    <meta
+      property="og:description"
+      content="JSHacks is the annual JavaScript hackathon organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation. Proudly crafted by the JSLeague team 🤟"
     />
-    <meta name="Language" content="EN">
-    <meta name="country" content="Romania">
+    <meta name="Language" content="EN" />
+    <meta name="country" content="Romania" />
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="jshacks.io">
-    <meta itemprop="description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+    <meta itemprop="name" content="jshacks.io" />
+    <meta
+      itemprop="description"
+      content="JSHacks is the annual JavaScript hackathon organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation. Proudly crafted by the JSLeague team 🤟"
     />
-    <meta itemprop="image" content="https://jshacks.io/img/cover.png">
+    <meta itemprop="image" content="https://jshacks.io/img/cover.png" />
 
     <!-- Twitter Card data -->
-    <meta name="twitter:card" content="JSHacks.io">
+    <meta name="twitter:card" content="JSHacks.io" />
     <meta name="twitter:site" content="@jshacksio" />
-    <meta name="twitter:title" content="jshacks.io">
-    <meta name="twitter:description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+    <meta name="twitter:title" content="jshacks.io" />
+    <meta
+      name="twitter:description"
+      content="JSHacks is the annual JavaScript hackathon organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation. Proudly crafted by the JSLeague team 🤟"
     />
-    <meta name="twitter:creator" content="@jshacksio">
-    <meta name="twitter:image:src" content="https://jshacks.io/img/cover.png">
+    <meta name="twitter:creator" content="@jshacksio" />
+    <meta name="twitter:image:src" content="https://jshacks.io/img/cover.png" />
 
     <!-- Open Graph data -->
     <meta property="og:title" content="JSHacks.io" />
     <meta property="og:type" content="post" />
     <meta property="og:url" content="https://jshacks.io/" />
-    <meta property="og:image" content="https://jshacks.io/img/cover.png">
-    <meta property="og:description" content="JS Hacks is an umbrella event, hosting a series of local hackathons organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation."
+    <meta property="og:image" content="https://jshacks.io/img/cover.png" />
+    <meta
+      property="og:description"
+      content="JSHacks is the annual JavaScript hackathon organized by developers for developers dedicated (but not limited) to all those passionate about JavaScript and innovation. Proudly crafted by the JSLeague team 🤟"
     />
     <meta property="og:site_name" content="JSHacks.io" />
 
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Source Sans Pro -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700"
+      rel="stylesheet"
+    />
 
     <!-- Booooooootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-  <![endif]-->
-</head>
-
-<body>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>
+        window.html5 ||
+          document.write('<script src="js/vendor/html5shiv.js"><\/script>');
+      </script>
+    <![endif]-->
+  </head>
+  <body>
     <main class="main">
-        <div class="stars"></div>
-        <div class="blobs toright hidden-xs hidden-sm">
-            <div class="blob"></div>
-            <div class="blob"></div>
-            <div class="blob"></div>
-            <div class="blob"></div>
-            <div class="blob"></div>
-            <div class="blob"></div>
+      <div class="stars"></div>
+      <div class="blobs toright hidden-xs hidden-sm">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+      </div>
+      <header>
+        <nav
+          class="navbar navbar-inverse transparent navbar-expand-md fixed-top"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="https://jshacks.io/">
+              <img src="img/logo-blue.png" height="20" alt="image" />
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav3"
+              aria-controls="navbarNav3"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span>
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav3">
+              <ul class="navbar-nav ml-auto justify-content-end">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link">about</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#agenda" class="nav-link">agenda</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#mentors" class="nav-link">mentors</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#partners" class="nav-link">partners</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.htmlteam.html" class="nav-link">team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="index.html#contact" class="nav-link">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+          <div class="fadein relative">
+            <div class="row mt-10">
+              <div class="col-md-12 mt-5">
+                <h1
+                  class="rellax f1 text-purple font-nasa mt-5"
+                  data-rellax-speed="-4"
+                >
+                  About us
+                </h1>
+                <h2 class="rellax f-bold font-nasa f3" data-rellax-speed="-4">
+                  who we are
+                </h2>
+              </div>
+
+              <div
+                class="col-xs-offset-2 col-md-offset-7 col-md-3 hidden-xs hidden-sm"
+              >
+                <div
+                  class="rellax"
+                  data-rellax-speed="5"
+                  style="transform: rotate(25deg); margin-top:-50px;"
+                >
+                  <img src="img/robots/robot3.png" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <header>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 index-5">
-                        <div class="row">
-                            <nav class="navbar navbar-default mt-30">
-                                <div class="container-fluid">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#superdupernav">
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                        <a class="navbar-brand f5 logo" href="https://jshacks.io/" target="_blank">
-                                            <img src="img/logo-blue.png">
-                                        </a>
+      </header>
 
-                                        <div class="white-block hidden-xs hidden-sm"></div>
-                                    </div>
-                                    <div class="collapse navbar-collapse" id="superdupernav">
-                                        <ul class="Menu-list nav navbar-nav pull-right f5">
-                                            <li>
-                                                <a href="index.html">home</a>
-                                            </li>
-                                            <li class="active">
-                                                <a href="#">about</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#challenges">challenges</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#agenda">agenda</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#mentors">mentors</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#sponsors">sponsors</a>
-                                            </li>
-                                            <li>
-                                                <a href="team.html">team</a>
-                                            </li>
-                                            <li>
-                                                <a href="index.html#contact">contact</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </nav>
-                        </div>
-                    </div>
-                </div>
+      <section class="h-70vh"></section>
 
-                <div class="cta fadein">
-                    <div class="row index-5">
-                        <div class="col-md-12 mt-10em">
-                            <h2 class="rellax f-subheadline text-orange font-nasa m-a-0" data-rellax-speed="-4">About
-
-                            </h2>
-                            <h2 class="rellax f-bold font-nasa f-subheadline" data-rellax-speed="-4">JSHacks</h4>
-                        </div>
-
-                        <div class="col-xs-offset-2 col-md-offset-7 col-md-3 hidden-xs hidden-sm">
-                            <div class="rellax" data-rellax-speed="5" style="transform: rotate(25deg); margin-top:-50px;">
-                                <img src="img/robots/robot4.png" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section>
+        <div class="container">
+          <div class="row"></div>
+          <div class="row mt-5">
+            <div class="col-md-12">
+              <p>
+                JSHacks is the annual JavaScript hackathon organized by
+                developers for developers dedicated (but not limited) to all
+                those passionate about JavaScript and innovation.
+                <br />
+                <br />By organizing JS Hacks across multiple locations in
+                Romania (and abroad) we increase the potential of attracting
+                some of the brightest and talented specialists in the region.
+                <br />
+                <br />As a 100% community-driven event, JS Hacks is keen on
+                inviting members of developer user-groups, meetups or slacks to
+                join as organizers, volunteers of participants. If you want to
+                bring JS Hacks in your city, please get in touch for more
+                details at contact@jshacks.io.
+                <br />
+                <br />JSHacks 2019 is organized by the
+                <a
+                  href="https://jsleague.ro"
+                  target="_blank"
+                  class="text-orange"
+                  >JSLeague</a
+                >
+                team and is included in the pre-conference series of events for
+                How to Web 2019.
+              </p>
             </div>
-        </header>
-
-
-        <section>
-            <div class="container">
-                <div class="row" id="sponsors">
-                    <div class="col-md-12">
-                        <h3 class="font-nasa f1 f-bold">About</h3>
-                        <h3 class="font-nasa text-orange f2 f-bold mt-0">who we are</h3>
-                    </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="col-md-12">
-                        <p>JS Hacks is an umbrella event, hosting a series of local hackathons organized “by developers for
-                            developers” dedicated to all those passionate about JavaScript and innovation. The event is open
-                            to JavaScript enthusiasts, IT professionals and entrepreneurs.
-                            <br>
-                            <br>By organizing JS Hacks across multiple locations in Romania (and abroad) we increase the potential
-                            of attracting some of the brightest and talented specialists in the region.
-                            <br>
-                            <br>As a 100% community-driven event, JS Hacks is keen on inviting members of developer user-groups,
-                            meetups or slacks to join as organizers, volunteers of participants. If you want to bring JS
-                            Hacks in your city, please get in touch for more details at contact@jshacks.io.
-                            <br>
-                            <br>3 developer meetup groups joined together to organize JS Hacks 2018 - The AI Edition
-                            in Bucharest: AngularJS Bucharest, BucharestAI and BucharestJS.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="relative">
-            <div class="stars full" style="height: 1500px;"></div>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="1800px" height="321.829px" viewBox="0 0 1800 321.829" enable-background="new 0 0 1800 321.829" xml:space="preserve">
-                <path fill="#08112B" d="M703.731,185.495C293.502,136.274,87.615,187.899,0,224.085V0.001l1799.999,0v294.773
-                  C1500.028,327.082,1179.88,242.432,703.731,185.495z M1799.999,0.001H0v321.828h1799.999V0.001z" />
-            </svg>
+          </div>
         </div>
+      </section>
 
-        <section class="bg-inversed relative" style="margin-top: -10px;">
-            <div class="container">
-                <div class="row" id="mentors">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h3 class="font-nasa f1 f-bold">Our goals</h3>
-                        <h3 class="font-nasa mb-30 f2 f-bold mt-0 text-orange">and beliefs</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <p>
-                            Create sustainable, synergistic and transparent connections among tech communities in Romania and in the region.
-                            <br>
-                            <br> Surface valuable opportunities by putting emerging technologies in the hands of talented and
-                            innovative people.
-                            <br>
-                            <br>Sprout open source projects that can be pursued to create meaningful businesses on the medium-long
-                            term.
-                        </p>
-                    </div>
-                </div>
+      <div class="relative">
+        <div class="stars full" style="height: 1500px;"></div>
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="1800px"
+          height="321.829px"
+          viewBox="0 0 1800 321.829"
+          enable-background="new 0 0 1800 321.829"
+          xml:space="preserve"
+        >
+          <path
+            fill="#08112B"
+            d="M703.731,185.495C293.502,136.274,87.615,187.899,0,224.085V0.001l1799.999,0v294.773
+                  C1500.028,327.082,1179.88,242.432,703.731,185.495z M1799.999,0.001H0v321.828h1799.999V0.001z"
+          />
+        </svg>
+      </div>
+
+      <section class="bg-inversed relative" style="margin-top: -10px;">
+        <div class="container">
+          <div class="row" id="mentors">
+            <div class="col-md-8 col-md-offset-2">
+              <h3 class="font-nasa f2 f-bold">Our goals</h3>
+              <h3 class="font-nasa mb-3 f3 f-bold mt-0 text-purple">
+                and beliefs
+              </h3>
             </div>
-        </section>
-
-        <div class="flippedX">
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="1800px" height="321.829px" viewBox="0 0 1800 321.829" enable-background="new 0 0 1800 321.829" xml:space="preserve">
-                <path fill="#08112B" d="M1799.999,294.774V0L0,0.001v224.084c87.615-36.187,293.502-87.812,703.731-38.591
-              C1179.88,242.432,1500.028,327.082,1799.999,294.774z" />
-            </svg>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-8 col-md-offset-2">
+              <p>
+                Create sustainable, synergistic and transparent connections
+                among tech communities in Romania and in the region.
+                <br />
+                <br />
+                Surface valuable opportunities by putting emerging technologies
+                in the hands of talented and innovative people.
+                <br />
+                <br />Sprout open source projects that can be pursued to create
+                meaningful businesses on the medium-long term.
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center index-5">
-                        <h3 class="font-nasa f1 f-bold">Why AI</h3>
-                        <h3 class="font-nasa mb-30 f2 f-bold mt-0 text-orange">curious?</h3>
-                    </div>
-                    <div class="col-md-10 col-md-offset-1 text-center">
-                        <p>Just as the Industrial Revolution transformed the world during the 18th and 19th centuries, we are facing the dawn of an equally far-reaching artificial intelligence or AI revolution that will be measured in years rather than decades. AI has reached the point where it is capable of surpassing the decision-making of humans in many situations; consistently, accurately, 24/7 and based on more facts.</p>
-                    </div>
-                </div>
+      <div class="flippedX">
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="1800px"
+          height="321.829px"
+          viewBox="0 0 1800 321.829"
+          enable-background="new 0 0 1800 321.829"
+          xml:space="preserve"
+        >
+          <path
+            fill="#08112B"
+            d="M1799.999,294.774V0L0,0.001v224.084c87.615-36.187,293.502-87.812,703.731-38.591
+              C1179.88,242.432,1500.028,327.082,1799.999,294.774z"
+          />
+        </svg>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+              <h3 class="font-nasa f2 f-bold">Why EduTech</h3>
+              <h3 class="font-nasa mb-30 f3 f-bold mt-0 text-purple">
+                curious?
+              </h3>
             </div>
-        </section>
-
-        <section class="mt-150">
-            <div class="container">
-                <div class="row" id="sponsors">
-                    <div class="col-md-6">
-                        <h3 class="font-nasa f1 f-bold">Previous editions</h3>
-                        <h3 class="font-nasa text-orange f2 f-bold mt-0">check it out</h3>
-                        <p class="mt-5">Curious what happened last years ?
-                            <br> Lots of fun, coding and hacking.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="https://2016.jshacks.io" target="_blank" class="prev-edition">
-                            <div class="relative">
-                                <img src="img/icons/astronaut.svg" />
-                                <h2 class="font-nasa f2 text-purple">2016</h2>
-                                <svg class="flippedX" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)" fill="#08112b">
-                                    <defs>
-                                        <filter id="goo">
-                                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-                                            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
-                                        </filter>
-                                    </defs>
-                                    <g>
-                                        <circle r="100" cy="145" cx="150">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 145 150" to="360 145 150" dur="10s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                        <circle r="100" cy="155" cx="150">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 155 150" to="0 155 150" dur="20s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                        <circle r="100" cy="150" cx="145">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 150 145" to="360 150 145" dur="30s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                        <circle r="100" cy="150" cx="155">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 150 155" to="0 150 155" dur="20.5s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                    </g>
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="https://2017.jshacks.io" target="_blank" class="prev-edition">
-                            <div class="relative">
-                                <img src="img/icons/moon1.png" />
-                                <h2 class="font-nasa f2 text-green">2017</h2>
-                                <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)" fill="#08112b">
-                                    <defs>
-                                        <filter id="goo">
-                                            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                                            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-                                            <feComposite in="SourceGraphic" in2="goo" operator="atop" />
-                                        </filter>
-                                    </defs>
-                                    <g>
-                                        <circle r="100" cy="145" cx="150">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 145 150" to="360 145 150" dur="10s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                        <circle r="100" cy="155" cx="150">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 155 150" to="0 155 150" dur="20s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                        <circle r="100" cy="150" cx="145">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 150 145" to="360 150 145" dur="30s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                        <circle r="100" cy="150" cx="155">
-                                            <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="360 150 155" to="0 150 155" dur="20.5s"
-                                                repeatCount="indefinite" />
-                                        </circle>
-                                    </g>
-                                </svg>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
+            <div class="col-md-10 mt-4 text-center">
+              <p>
+                As technology evolved throughout the years, our educational
+                system remained the same. It is time to unite all our powers and
+                ideas and to innovate and develop new educational projects to
+                help society.
+              </p>
             </div>
-        </section>
-
-        <section class="mt-150">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center index-5">
-                        <h3 class="mb-30 f1 font-nasa">READY? LET'S JS HACK! </h3>
-                        <a href="http://bit.ly/JSHacks2018" class="btn btn-xl f4 btn-pink" target="_blank">REGISTER FOR JSHACKS</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="relative o-hidden">
-            <div class="stars full" style="height: 500px;"></div>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                width="1800px" height="321.829px" viewBox="0 0 1800 321.829" enable-background="new 0 0 1800 321.829" xml:space="preserve">
-                <path fill="#08112B" d="M703.731,185.495C293.502,136.274,87.615,187.899,0,224.085V0.001l1799.999,0v294.773
-      C1500.028,327.082,1179.88,242.432,703.731,185.495z M1799.999,0.001H0v321.828h1799.999V0.001z" />
-            </svg>
+          </div>
         </div>
+      </section>
 
-
-        <section id="contact" class="bg-inversed" style="margin-top:-10px;">
-            <div class="container pb-2">
-                <div class="row">
-                    <div class="col-md-6 col-xs-12 contact-btns">
-                        <a href="http://jshacks.io" class="f5 hack-link" target="_blank">jshacks.io</a> |
-                        <a href="http://2016.jshacks.io" class="f5 hack-link" target="_blank">2016 edition</a> |
-                        <a href="http://2017.jshacks.io" class="f5 hack-link" target="_blank">2017 edition</a> |
-                        <a href="mailto:contact@jshacks.io" class="f5 hack-link" target="_blank">contact@jshacks.io</a>
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-xs-12 social-btns f4">
-                        <a href="https://www.facebook.com/jshacks/" class="hack-slink" target="_blank">
-                            <i class="fa fa-facebook mr-10" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://twitter.com/jshacksio" class="hack-slink" target="_blank">
-                            <i class="fa fa-twitter mr-10" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://github.com/jshacks/" class="hack-slink" target="_blank">
-                            <i class="fa fa-github mr-10" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.youtube.com/watch?v=ee7jihHD03o" class="hack-slink" target="_blank">
-                            <i class="fa fa-youtube mr-10" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://jshacks.slack.com/" class="hack-slink" target="_blank">
-                            <i class="fa fa-slack" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                </div>
+      <section class="mt-150">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="font-nasa f3 f-bold">Previous editions</h3>
+              <h3 class="font-nasa text-purple f4 f-bold mt-0">check it out</h3>
+              <p class="mt-5">
+                Curious what happened last years ? <br />
+                Lots of fun, coding and hacking.
+              </p>
             </div>
-        </section>
 
+            <div class="col-md-8">
+              <div class="row">
+                <!-- 2018 -->
+                <div class="col-md-4">
+                  <a
+                    href="https://2018.jshacks.io"
+                    target="_blank"
+                    class="prev-edition"
+                  >
+                    <div class="relative">
+                      <img src="img/icons/robot1.png" class="w-75" />
+                      <h2 class="font-nasa f4 text-dark">2018</h2>
+                      <svg
+                        class="flippedX"
+                        width="300"
+                        height="300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        filter="url(#goo)"
+                        fill="#08112b"
+                      >
+                        <defs>
+                          <filter id="goo">
+                            <feGaussianBlur
+                              in="SourceGraphic"
+                              stdDeviation="10"
+                              result="blur"
+                            />
+                            <feColorMatrix
+                              in="blur"
+                              mode="matrix"
+                              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                              result="goo"
+                            />
+                            <feComposite
+                              in="SourceGraphic"
+                              in2="goo"
+                              operator="atop"
+                            />
+                          </filter>
+                        </defs>
+                        <g>
+                          <circle r="80" cy="145" cx="150">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 145 150"
+                              to="360 145 150"
+                              dur="10s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="155" cx="150">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="360 155 150"
+                              to="0 155 150"
+                              dur="20s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="150" cx="145">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 150 145"
+                              to="360 150 145"
+                              dur="30s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="150" cx="155">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="360 150 155"
+                              to="0 150 155"
+                              dur="20.5s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- 2017 -->
+                <div class="col-md-4">
+                  <a
+                    href="https://2017.jshacks.io"
+                    target="_blank"
+                    class="prev-edition"
+                  >
+                    <div class="relative">
+                      <img src="img/icons/moon1.png" class="w-75" />
+                      <h2 class="font-nasa f4 text-dark">2017</h2>
+                      <svg
+                        width="300"
+                        height="300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        filter="url(#goo)"
+                        fill="#08112b"
+                      >
+                        <defs>
+                          <filter id="goo">
+                            <feGaussianBlur
+                              in="SourceGraphic"
+                              stdDeviation="10"
+                              result="blur"
+                            />
+                            <feColorMatrix
+                              in="blur"
+                              mode="matrix"
+                              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                              result="goo"
+                            />
+                            <feComposite
+                              in="SourceGraphic"
+                              in2="goo"
+                              operator="atop"
+                            />
+                          </filter>
+                        </defs>
+                        <g>
+                          <circle r="80" cy="145" cx="150">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 145 150"
+                              to="360 145 150"
+                              dur="10s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="155" cx="150">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="360 155 150"
+                              to="0 155 150"
+                              dur="20s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="150" cx="145">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 150 145"
+                              to="360 150 145"
+                              dur="30s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="150" cx="155">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="360 150 155"
+                              to="0 150 155"
+                              dur="20.5s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- 2016 -->
+                <div class="col-md-4">
+                  <a
+                    href="https://2016.jshacks.io"
+                    target="_blank"
+                    class="prev-edition"
+                  >
+                    <div class="relative">
+                      <img src="img/icons/astronaut.svg" class="w-75" />
+                      <h2 class="font-nasa f4 text-dark">2016</h2>
+                      <svg
+                        width="300"
+                        height="300"
+                        xmlns="http://www.w3.org/2000/svg"
+                        filter="url(#goo)"
+                        fill="#08112b"
+                      >
+                        <defs>
+                          <filter id="goo">
+                            <feGaussianBlur
+                              in="SourceGraphic"
+                              stdDeviation="10"
+                              result="blur"
+                            />
+                            <feColorMatrix
+                              in="blur"
+                              mode="matrix"
+                              values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                              result="goo"
+                            />
+                            <feComposite
+                              in="SourceGraphic"
+                              in2="goo"
+                              operator="atop"
+                            />
+                          </filter>
+                        </defs>
+                        <g>
+                          <circle r="80" cy="145" cx="150">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 145 150"
+                              to="360 145 150"
+                              dur="10s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="155" cx="150">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="360 155 150"
+                              to="0 155 150"
+                              dur="20s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="150" cx="145">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="0 150 145"
+                              to="360 150 145"
+                              dur="30s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                          <circle r="80" cy="150" cx="155">
+                            <animateTransform
+                              attributeType="xml"
+                              attributeName="transform"
+                              type="rotate"
+                              from="360 150 155"
+                              to="0 150 155"
+                              dur="20.5s"
+                              repeatCount="indefinite"
+                            />
+                          </circle>
+                        </g>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-150">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center index-5">
+              <h3 class="mb-5 f2 font-nasa">READY? LET'S JS HACK!</h3>
+              <a
+                href="https://forms.gle/EyCPZAGU27rAZpb29"
+                class="btn f5 btn-purple"
+                target="_blank"
+                >REGISTER FOR JSHACKS 2019</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="relative o-hidden">
+        <div class="stars full" style="height: 500px;"></div>
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="1800px"
+          height="321.829px"
+          viewBox="0 0 1800 321.829"
+          enable-background="new 0 0 1800 321.829"
+          xml:space="preserve"
+        >
+          <path
+            fill="#08112B"
+            d="M703.731,185.495C293.502,136.274,87.615,187.899,0,224.085V0.001l1799.999,0v294.773
+      C1500.028,327.082,1179.88,242.432,703.731,185.495z M1799.999,0.001H0v321.828h1799.999V0.001z"
+          />
+        </svg>
+      </div>
+
+      <section id="contact" class="bg-inversed" style="margin-top:-10px;">
+        <div class="container pb-2">
+          <div class="row">
+            <div class="col-md-8 col-xs-12 contact-btns">
+              <a href="http://jshacks.io" class="hack-link" target="_blank"
+                >jshacks.io</a
+              >
+              &#8226;
+              <a href="http://2018.jshacks.io" class="hack-link" target="_blank"
+                >2018
+              </a>
+              &#8226;
+              <a href="http://2017.jshacks.io" class="hack-link" target="_blank"
+                >2017
+              </a>
+              &#8226;
+              <a href="http://2016.jshacks.io" class="hack-link" target="_blank"
+                >2016
+              </a>
+            </div>
+            <div class="col-md-4 col-xs-12 social-btns f5">
+              <a
+                href="https://www.facebook.com/jshacks/"
+                class="hack-slink"
+                target="_blank"
+              >
+                <i class="fa fa-facebook mr-1" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://twitter.com/jshacksio"
+                class="hack-slink"
+                target="_blank"
+              >
+                <i class="fa fa-twitter mr-1" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://github.com/jshacks/"
+                class="hack-slink"
+                target="_blank"
+              >
+                <i class="fa fa-github mr-1" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=ee7jihHD03o"
+                class="hack-slink"
+                target="_blank"
+              >
+                <i class="fa fa-youtube mr-1" aria-hidden="true"></i>
+              </a>
+              <a
+                href="https://jshacks.slack.com/"
+                class="hack-slink"
+                target="_blank"
+              >
+                <i class="fa fa-slack" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="terms-and-conditions.html" class="hack-link">
+                Terms & Conditions
+              </a>
+              &#8226;
+              <a href="privacy-policy.html" class="hack-link">
+                Privacy Policy
+              </a>
+              &#8226;
+              <a href="code-conduct.html" class="hack-link">
+                Code of Conduct
+              </a>
+              &#8226;
+              <a
+                href="mailto:contact@jshacks.io"
+                class="hack-link"
+                target="_blank"
+                >contact@jshacks.io</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
     <!-- javascript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    ></script>
     <script type="text/javascript" src="js/rellax.min.js"></script>
     <script>
-        // Need DEBUG for old version of Rellax.js
-        var DEBUG = false;
-        var rellax = new Rellax('.rellax');
+      // Need DEBUG for old version of Rellax.js
+      var DEBUG = false;
+      var rellax = new Rellax(".rellax");
     </script>
-
-
-
-
-</body>
-
+  </body>
 </html>
