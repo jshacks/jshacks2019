@@ -112,8 +112,8 @@
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span>
-                <i class="fas fa-bars"></i>
+              <span class="text-white">
+                <i class="fa fa-bars"></i>
               </span>
             </button>
 
@@ -161,14 +161,11 @@
               </div>
 
               <div
-                class="col-xs-offset-2 col-md-offset-7 col-md-3 hidden-xs hidden-sm"
+                class="offset-md-6 col-md-6 hidden-xs hidden-sm"
+                style="margin-top:-12rem;"
               >
-                <div
-                  class="rellax"
-                  data-rellax-speed="5"
-                  style="transform: rotate(25deg); margin-top:-50px;"
-                >
-                  <img src="img/robots/robot3.png" />
+                <div class="rellax" data-rellax-speed="5">
+                  <img src="img/swags/hero-edu.png" class="w-100" />
                 </div>
               </div>
             </div>
@@ -176,7 +173,7 @@
         </div>
       </header>
 
-      <section class="h-70vh"></section>
+      <section class="h-30vh"></section>
 
       <section class="mt-5">
         <div class="container">
@@ -442,19 +439,45 @@
 
     <!-- javascript -->
     <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
     ></script>
     <script
-      type="text/javascript"
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="js/rellax.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"
+    ></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
     <script>
       // Need DEBUG for old version of Rellax.js
       var DEBUG = false;
       var rellax = new Rellax(".rellax");
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148368793-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148368793-1");
     </script>
   </body>
 </html>
