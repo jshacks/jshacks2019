@@ -1535,3 +1535,8 @@ header .title {
 #sponsors {
   outline: none;
 }
+
+.footer-swoosh {
+  width: 100%;
+  height: auto;
+}
