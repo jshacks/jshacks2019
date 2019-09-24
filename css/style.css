@@ -180,6 +180,17 @@ li {
 .navbar-collapse.collapse.in ul li a {
   color: #08112b;
 }
+.navbar-scroll {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px -5px #333;
+}
+.navbar-scroll .navbar-toggler .fa-bars,
+.navbar-scroll .nav-item a {
+  color: #08112b;
+}
+.navbar-scroll .nav-item a:hover {
+  color: #ad5fff;
+}
 
 .box {
   width: 100vw;
