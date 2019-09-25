@@ -1,24 +1,24 @@
 $(document).ready(function() {
   function onScroll() {
-    var navElement = $('nav');
-    var hamburgerElement = $('.navbar-toggler');
+    var navElement = $("nav");
+    var hamburgerElement = $(".navbar-toggler");
 
-    if(hamburgerElement.is(':visible')) {
-      navElement.addClass('navbar-scroll');
-    } else if(window.pageYOffset !== 0) {
-      if(!navElement.hasClass('navbar-scroll')) {
-        navElement.addClass('navbar-scroll');
+    if (hamburgerElement.is(":visible")) {
+      navElement.addClass("navbar-scroll");
+    } else if (window.pageYOffset !== 0) {
+      if (!navElement.hasClass("navbar-scroll")) {
+        navElement.addClass("navbar-scroll");
       }
     } else {
-      if(navElement.hasClass('navbar-scroll')) {
-        navElement.removeClass('navbar-scroll');
+      if (navElement.hasClass("navbar-scroll")) {
+        navElement.removeClass("navbar-scroll");
       }
     }
   }
 
   $(document).on("scroll", onScroll);
   onScroll();
-  
+
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
