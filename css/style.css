@@ -1540,3 +1540,52 @@ header .title {
   width: 100%;
   height: auto;
 }
+
+/* Small devices (phones) */
+@media (max-width: 767px) {
+  .jsh-sm-no-padding {
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+  }
+  
+  .jsh-sm-no-margin {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .jsh-sm-text-center {
+    text-align: center !important;
+  }
+
+  .jsh-sm-text-white {
+    color: #ffffff !important;
+  }
+
+  .jsh-sm-text-blue {
+    color: #08112b !important;
+  }
+
+  .jsm-sm-button {
+    max-width: 90%;
+    white-space: normal;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) {
+
+} */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) {
+
+} */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) {
+  
+} */
