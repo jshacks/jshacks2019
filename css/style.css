@@ -1094,6 +1094,11 @@ section.curvy {
 .btn {
   padding: 9px 26px;
 }
+.btn-cta {
+  z-index: 5;
+  display: inline-block;
+  position: relative;
+}
 .btn-pink {
   border: 1px solid #e9467e;
   background: #e9467e;
@@ -1473,6 +1478,12 @@ span.white {
   font-size: 4.8rem !important;
 }
 
+@media (max-width: 768px) {
+  .f1 {
+    font-size: 4rem !important;
+  }
+}
+
 .f2 {
   font-size: 3.6rem !important;
 }
@@ -1549,7 +1560,7 @@ header .title {
     padding-bottom: 0 !important;
     padding-left: 0 !important;
   }
-  
+
   .jsh-sm-no-margin {
     margin-top: 0 !important;
     margin-right: 0 !important;
