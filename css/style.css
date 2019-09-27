@@ -1276,6 +1276,9 @@ span.white {
 .mt-20em {
   margin-top: 20em;
 }
+.mb-10em {
+  margin-bottom: 10em;
+}
 .mt-150 {
   margin-top: 150px;
 }
@@ -1547,9 +1550,29 @@ header .title {
   outline: none;
 }
 
-.footer-swoosh {
+.jsh-swooosh {
   width: 100%;
   height: auto;
+}
+
+.jsl-spaceman {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  text-align: right;
+  z-index: 15;
+  bottom: 7rem;
+}
+
+.jsl-spaceman.home {
+  bottom: 5rem;
+}
+
+@media (max-width: 425px) {
+  .jsl-spaceman {
+    bottom: 9rem;
+  }
 }
 
 /* Small devices (phones) */
