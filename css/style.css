@@ -118,7 +118,7 @@ p {
   font-weight: 400;
 }
 
-p.text-small {
+.text-small {
   font-size: 0.9rem;
 }
 
@@ -127,7 +127,7 @@ p.text-small {
   line-height: 1.5;
   font-weight: 300;
 }
-ul {
+ul.list-blank {
   list-style: none;
 }
 li {
@@ -1562,10 +1562,6 @@ header .title {
   width: 100%;
   text-align: right;
   z-index: 15;
-  bottom: 7rem;
-}
-
-.jsl-spaceman.home {
   bottom: 5rem;
 }
 
